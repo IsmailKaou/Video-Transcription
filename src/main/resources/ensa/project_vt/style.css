@@ -1,0 +1,101 @@
+
+.root{
+    -fx-background-color:#1E1E1E;
+    -fx-font-family:"Poppins Black";
+}
+@font-face
+{
+	font-family: 'Poppins Black';
+	src: url('Poppins-Black.ttf');
+}
+
+.button{
+
+    -fx-background-color:#403D3D;
+    -fx-text-fill:#fff;
+    -fx-font-size:16px;
+    -fx-pref-width:124px;
+    -fx-pref-height:60px;
+    -fx-cursor: hand;
+    -fx-font-family:"Poppins Black";
+
+}
+/*
+.text {
+    -fx-font-size:16px;
+    -fx-text-fill:#fff;
+}
+
+ */
+.input{
+    -fx-background-color:#403D3D;
+    -fx-text-fill:#fff;
+}
+.result-item{
+    -fx-background-color:#403D3D;
+    -fx-text-fill:#fff;
+}
+.scroll-bar {
+    -fx-background-color: #333; /* Dark background color for the scrollbar */
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #555; /* Dark thumb color for the scrollbar */
+}
+
+.scroll-bar:hover .thumb {
+    -fx-background-color: #777; /* Dark thumb color when hovered over */
+}
+
+.scroll-bar:pressed .thumb {
+    -fx-background-color: #00ffd1; /* Dark thumb color when pressed */
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #252525;
+}
+.list-view .list-cell:odd {
+    -fx-background-color: #252525;
+}
+.list-cell {
+    -fx-padding: 5px;
+    -fx-border-color:#252525;
+}
+
+.list-view{
+    -fx-box-border:#252525;
+    -fx-box-background:#1E1E1E;
+
+}
+.virtual-flow > .corner {
+    -fx-background-color: #2c365d ;
+}
+
+#pane{
+    -fx-background-color: #403D3D;
+    -fx-background-radius: 10px;
+
+}
+
+
+#videoDurationLabel,#videoLinkLabel{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+#videoTitleLabel{
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+    -fx-background-color:#403D3D;
+}
+.label{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+#playArea,#saveArea,#transcriptArea,#Back{
+    -fx-cursor: hand;
+}
+#progressArea{
+    -fx-background-color: #403D3D;
+    -fx-background-radius: 5px;
+}
